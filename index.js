@@ -66,7 +66,6 @@ app.post('/generate-linkedin-post', async (req, res, next) => {
         Option 3: Drowning in data, struggling to find actionable insights? AI algorithms can analyze vast datasets to uncover hidden trends and predict customer behavior with greater accuracy. How are you using AI to make data-driven marketing decisions? #AIMarketing #DataDrivenMarketing #MarketingAnalytics #ArtificialIntelligence #BigData`;
 
 
-        console.log("Generated Prompt for Gemini:", prompt);
 
         // Prepare the payload for the Gemini API request
         const payload = {
