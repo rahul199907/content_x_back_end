@@ -58,12 +58,13 @@ app.post('/generate-linkedin-post', async (req, res, next) => {
         // Instructions for LinkedIn best practices and neuro-copywriting
         prompt += ` Ensure each post is highly engaging for a professional audience, uses appropriate line breaks for readability, and focuses on providing value or insights.`;
         prompt += ` Use neuro-copywriting storytelling techniques (e.g., starting with a question, a relatable scenario, or a bold statement) within each post.`;
-        prompt += ` Each post should be suitable for a professional network in India.`;
+        prompt += ` Each post should be suitable for a professional network.`;
+        prompt += ` Insted of placing everyting into a paragraph use bullet points to make it more readable.`;
         prompt += ` Present each option clearly, starting with "Option 1:", "Option 2:", "Option 3:". Do NOT include any Markdown bold (**) or italic (*) formatting.`;
         prompt += ` For example:
-        Option 1: Imagine reclaiming hours each week by automating repetitive marketing tasks. AI isn't just a buzzword; it's a powerful tool for boosting marketing efficiency. From content generation to campaign optimization, AI is transforming how we work. How are you leveraging AI to streamline your marketing efforts? #AI #MarketingAutomation #DigitalMarketing #ArtificialIntelligence #MarketingAI
-        Option 2: Remember the days of generic marketing blasts? Thankfully, those are fading. AI empowers marketers to create hyper-personalized experiences at scale, leading to higher engagement and conversions. What innovative AI-driven personalization strategies are you exploring? #AIinMarketing #PersonalizedMarketing #CustomerExperience #MarketingTechnology #AI
-        Option 3: Drowning in data, struggling to find actionable insights? AI algorithms can analyze vast datasets to uncover hidden trends and predict customer behavior with greater accuracy. How are you using AI to make data-driven marketing decisions? #AIMarketing #DataDrivenMarketing #MarketingAnalytics #ArtificialIntelligence #BigData`;
+        Option 1: Imagine reclaiming hours each week by automating repetitive marketing tasks. AI isn't just a buzzword; it's a powerful tool for boosting marketing efficiency. From content generation to campaign optimization, AI is transforming how we work. How are you leveraging AI to streamline your marketing efforts? 
+        Option 2: Remember the days of generic marketing blasts? Thankfully, those are fading. AI empowers marketers to create hyper-personalized experiences at scale, leading to higher engagement and conversions. What innovative AI-driven personalization strategies are you exploring?
+        Option 3: Drowning in data, struggling to find actionable insights? AI algorithms can analyze vast datasets to uncover hidden trends and predict customer behavior with greater accuracy. How are you using AI to make data-driven marketing decisions?`;
 
 
 
